@@ -5,6 +5,8 @@ A simple Python script to clone GitHub Issue Labels from one repository to anoth
 GitHub Labels are really useful for organising issues and pull requests, especially when you use them with GitHub Projects.    
 This script helps you set up new repositories with a ready-made label structure copied from your ideal project.
 
+![Example run of github-label-cloner](Example-run.png)
+
 ---
 
 ## 🚀 Features
