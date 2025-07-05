@@ -33,13 +33,20 @@ pip install -r requirements.txt
 ## 🛠️ Usage
 
 ```bash
-python copy_labels.py   --token YOUR_GITHUB_TOKEN   --source username/repo-from   --target username/repo-to
+python copy_labels.py \
+  --token YOUR_GITHUB_TOKEN \
+  --source username/repo-from \
+  --target username/repo-to
 ```
 
 To **preserve existing labels** in the target repo, use the `--keep-existing` flag:
 
 ```bash
-python copy_labels.py   --token YOUR_GITHUB_TOKEN   --source username/repo-from   --target username/repo-to   --keep-existing
+python copy_labels.py \
+  --token YOUR_GITHUB_TOKEN \
+  --source username/repo-from \
+  --target username/repo-to \
+  --keep-existing
 ```
 
 You can also provide environment variables instead of flags:
