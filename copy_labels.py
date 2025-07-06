@@ -5,7 +5,7 @@ import logging
 import os
 import sys
 import time
-from typing import Dict, List, Optional
+from typing import Dict, List
 from urllib.parse import quote
 
 import httpx
