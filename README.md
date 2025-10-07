@@ -9,7 +9,7 @@ This script helps you set up new repositories with a ready-made label structure 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Copies all labels from one repo to another
 - Removes existing labels in target repo by default
@@ -19,7 +19,7 @@ This script helps you set up new repositories with a ready-made label structure 
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - [`httpx`](https://www.python-httpx.org/)
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ```bash
 python copy_labels.py \
@@ -59,6 +59,6 @@ You can also provide environment variables instead of flags:
 
 ---
 
-## 🪪 License
+## License
 
 This project is licensed under the [MIT Licence](LICENSE).
