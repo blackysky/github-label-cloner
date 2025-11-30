@@ -1,23 +1,18 @@
 # github-label-cloner
 
-A simple Python script to clone GitHub Issue Labels from one repository to another.
+Python script to clone GitHub Issue Labels from one repository to another.
 
 GitHub Labels are really useful for organising issues and pull requests, especially when you use them with GitHub Projects.    
-This script helps you set up new repositories with a ready-made label structure copied from your ideal project.
 
 ![Example run of github-label-cloner](Example-run.png)
-
----
 
 ## Features
 
 - Copies all labels from one repo to another
 - Removes existing labels in target repo by default
 - Supports `--keep-existing` flag to preserve existing labels
-- Fast and parallel (async, based on `httpx`)
-- Uses GitHub API via a personal token
-
----
+- Small benefit in the form of asynchronous operations (based on `httpx`)
+- Uses GitHub API (via a personal token)
 
 ## Requirements
 
@@ -29,8 +24,6 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## Usage
 
@@ -56,9 +49,3 @@ You can also provide environment variables instead of flags:
 - `GITHUB_TOKEN`
 - `SOURCE_REPO`
 - `TARGET_REPO`
-
----
-
-## License
-
-This project is licensed under the [MIT Licence](LICENSE).
